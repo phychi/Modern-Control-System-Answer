@@ -1,0 +1,1 @@
+% Chapter 3: State Variable Models% CP3.1%% Part (a)disp('Part (a)')num=1; den=[1 10]; sysg=tf(num,den);sys=ss(sysg)% Part (b)disp('Part (b)')num=[1 5 3]; den=[1 8 5]; sysg=tf(num,den);sys=ss(sysg)% Part (c)disp('Part (c)')num=[1 1]; den=[1 3 3 1]; sysg=tf(num,den);sys=ss(sysg)

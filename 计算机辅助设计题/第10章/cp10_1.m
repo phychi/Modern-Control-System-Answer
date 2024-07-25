@@ -1,0 +1,1 @@
+% Chapter 10: The Design of Feedback Control Systems% CP10.1%ng=1; dg=[1 9.5]; sysg=tf(ng,dg);nc=99; dc=[1 0]; sysc=tf(nc,dc);sys=series(sysg,sysc);[Gm,Pm,Wcg,Wcp]=margin(sys);Pmsyscl=feedback(sys,1);y=step(syscl);PO=100*(max(y)-1)

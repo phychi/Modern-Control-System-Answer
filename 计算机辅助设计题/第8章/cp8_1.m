@@ -1,0 +1,1 @@
+% Chapter 8: Frequency Response Methods% CP8.1%num=50; den=[1 1 50]; sys=tf(num,den);w=logspace(0,1,400);[mag,phase]=bode(sys,w);[y,l]=max(mag);Mp=20*log10(y), Wr=w(l)bode(sys,w);

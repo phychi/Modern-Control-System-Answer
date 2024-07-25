@@ -1,0 +1,1 @@
+% Chapter 9: Stability in the Frequency Domain% CP9.1%num=20; den=[1 10 10 0]; sys=tf(num,den);[Gm,Pm,Wcg,Wcp]=margin(sys);Gm_dB=20*log10(Gm),Pm
